@@ -1,6 +1,6 @@
 # Backend Engineer
 
-MSA 환경에서 확장 가능한 시스템 설계와 구현에 집중합니다.
+MSA 환경에서 확장 가능한 시스템 설계와 구현에 집중합니다. 
 
 ## Tech Stack
 
