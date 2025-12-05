@@ -1,5 +1,4 @@
 # Backend Engineer
-
 MSA 환경에서 확장 가능한 시스템 설계와 구현에 집중합니다. 
 
 ## Tech Stack
@@ -15,19 +14,24 @@ MSA 환경에서 확장 가능한 시스템 설계와 구현에 집중합니다.
 ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
-### Messaging & Infrastructure
+### Cloud & Infrastructure
+![AWS](https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![EC2](https://img.shields.io/badge/Amazon_EC2-FF9900?style=for-the-badge&logo=amazon-ec2&logoColor=white)
+![S3](https://img.shields.io/badge/Amazon_S3-569A31?style=for-the-badge&logo=amazon-s3&logoColor=white)
+![RDS](https://img.shields.io/badge/Amazon_RDS-527FFF?style=for-the-badge&logo=amazon-rds&logoColor=white)
+
+### Messaging & DevOps
 ![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 
-
 ## GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=DDINGJOO&show_icons=true&theme=radical&hide_border=true&count_private=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=DDINGJOO&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true)
 
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=DDINGJOO&layout=compact&theme=radical&hide_border=true&langs_count=8)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=DDINGJOO&layout=compact&theme=radical&hide_border=true)
-
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=DDINGJOO&theme=radical&hide_border=true)
 
 ## Contact
 
