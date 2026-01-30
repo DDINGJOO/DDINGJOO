@@ -43,4 +43,6 @@ MSA 환경에서 확장 가능한 시스템 설계와 구현에 집중합니다.
 
 ---
 
+[aws_dva](https://www.credly.com/badges/cf5260ba-e019-426c-9453-839fac9e9341/public_url)
+
 Seoul, South Korea
