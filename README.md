@@ -42,7 +42,6 @@ MSA 환경에서 확장 가능한 시스템 설계와 구현에 집중합니다.
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DDINGJOO)
 
 ---
-
-[aws_dva](https://www.credly.com/badges/cf5260ba-e019-426c-9453-839fac9e9341/public_url)
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="cf5260ba-e019-426c-9453-839fac9e9341" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 
 Seoul, South Korea
