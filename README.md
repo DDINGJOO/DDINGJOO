@@ -29,11 +29,13 @@ MSA 환경에서 확장 가능한 시스템 설계와 구현에 집중합니다.
 
 ![AWS Developer Associate](https://img.shields.io/badge/AWS_Certified_Developer-Associate-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
 
+## Open Source Contributions
+
+- Micrometer contributor
+  - Documented Jakarta Mail instrumentation
+  - https://github.com/micrometer-metrics/micrometer/pull/7256
+
 ## GitHub Stats
-
-![GitHub Stats](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=DDINGJOO&show_icons=true&theme=radical&hide_border=true&count_private=true)
-
-![Top Languages](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=DDINGJOO&layout=compact&theme=radical&hide_border=true)
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=DDINGJOO&theme=radical&hide_border=true)
 
