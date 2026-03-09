@@ -32,8 +32,6 @@ MSA 환경에서 확장 가능한 시스템 설계와 구현에 집중합니다.
 ## Open Source Contributions
 
 - Micrometer contributor
-  - Documented Jakarta Mail instrumentation
-  - https://github.com/micrometer-metrics/micrometer/pull/7256
 
 ## GitHub Stats
 
