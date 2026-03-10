@@ -1,5 +1,5 @@
 # Backend Engineer
-MSA 환경에서 확장 가능한 시스템 설계와 구현에 집중합니다. 
+MSA 환경에서 확장 가능한 시스템 설계와 구현에 집중합니다.
 
 ## Tech Stack
 
@@ -31,7 +31,11 @@ MSA 환경에서 확장 가능한 시스템 설계와 구현에 집중합니다.
 
 ## Open Source Contributions
 
-- Micrometer contributor
+| Project | Pull Request |
+|--------|-------------|
+| Micrometer | https://github.com/micrometer-metrics/micrometer/pull/7256 |
+| Spring Security | https://github.com/spring-projects/spring-security/pull/18855 |
+| Resilience4j | https://github.com/resilience4j/resilience4j/pull/2408 |
 
 ## GitHub Stats
 
