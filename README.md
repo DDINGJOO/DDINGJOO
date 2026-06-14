@@ -1,8 +1,7 @@
 # Backend Engineer
 
 Backend engineer focused on building scalable, reliable systems in microservices architectures.
-Interested in observability, resilience, and the internals of distributed systems —
-and I like contributing those interests back to the open-source projects I use.
+Interested in observability, resilience, and the internals of distributed systems 
 
 ## Certifications
 ![AWS Developer Associate](https://img.shields.io/badge/AWS_Certified_Developer-Associate-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
