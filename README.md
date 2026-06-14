@@ -25,3 +25,8 @@ Interested in observability, resilience, and the internals of distributed system
 ## Career
 **TeamBind Inc.** · Backend Engineer
 2025-07-01 – 2026-06-22
+
+- Designed and built microservices-based systems as the sole backend engineer, owning the full stack from infrastructure to application
+- Operated a self-managed (on-premises) Kubernetes cluster, including incident response and troubleshooting
+- Designed database schemas and data models for core services
+- Developed both web and app-facing backend services end to end
