@@ -23,7 +23,7 @@ Interested in observability, resilience, and the internals of distributed system
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DDINGJOO)
 
 ## Career
-**TeamBind Inc.** · Backend Engineer
+**TeamBind Inc.** · Backend Engineer/CTO
 2025-07-01 – 2026-06-22
 
 - Designed and built microservices-based systems as the sole backend engineer, owning the full stack from infrastructure to application
