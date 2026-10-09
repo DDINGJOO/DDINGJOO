@@ -9,6 +9,22 @@ I come from backend engineering, so I work on both sides of that line.
 ![Engineer Information Processing](https://img.shields.io/badge/Engineer_Information_Processing-정보처리기사-0066CC?style=for-the-badge&logoColor=white)
 ![SQLD](https://img.shields.io/badge/SQL_Developer-SQLD-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
+## Career
+**Platform Engineer & DevOps** · 2026-06 – present
+
+- Brought an existing, console-built AWS environment under Terraform by importing live resources, with guardrails against destroy and drift
+- Defined monitors and dashboards as code, moved alerting toward SLOs, and tracked down what monitoring silently missed
+- Analyzed where the cloud bill comes from and cut costs without losing safety margins
+- Hardened backend security: default-deny authorization in Spring Security, column-level encryption of personal data (AES-256-GCM via JPA converters), and secrets moved out of config files
+
+**TeamBind Inc.** · Backend Engineer/CTO
+2025-07-01 – 2026-06-22
+
+- Designed and built microservices-based systems as the sole backend engineer, owning the full stack from infrastructure to application
+- Operated a self-managed (on-premises) Kubernetes cluster, including incident response and troubleshooting
+- Designed database schemas and data models for core services
+- Developed both web and app-facing backend services end to end
+
 ## Open Source Contributions
 
 ### Merged
@@ -29,19 +45,3 @@ I come from backend engineering, so I work on both sides of that line.
 ## Contact
 [![Blog](https://img.shields.io/badge/Blog-FF5722?style=for-the-badge&logo=blogger&logoColor=white)](https://dding-shark.tistory.com/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DDINGJOO)
-
-## Career
-**Platform Engineer & DevOps** · 2026-06 – present
-
-- Brought an existing, console-built AWS environment under Terraform by importing live resources, with guardrails against destroy and drift
-- Defined monitors and dashboards as code, moved alerting toward SLOs, and tracked down what monitoring silently missed
-- Analyzed where the cloud bill comes from and cut costs without losing safety margins
-- Hardened backend security: default-deny authorization in Spring Security, column-level encryption of personal data (AES-256-GCM via JPA converters), and secrets moved out of config files
-
-**TeamBind Inc.** · Backend Engineer/CTO
-2025-07-01 – 2026-06-22
-
-- Designed and built microservices-based systems as the sole backend engineer, owning the full stack from infrastructure to application
-- Operated a self-managed (on-premises) Kubernetes cluster, including incident response and troubleshooting
-- Designed database schemas and data models for core services
-- Developed both web and app-facing backend services end to end
