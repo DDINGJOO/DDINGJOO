@@ -3,15 +3,6 @@
 I build and operate backend systems and the platform under them:
 infrastructure as code, observability, cost, and security.
 
-## What I've been working on
-- **Infrastructure as Code** — brought an existing, console-built AWS environment under Terraform
-  by importing live resources, with guardrails against destroy and drift
-- **Observability** — monitors and dashboards as code, SLO-based alerting, and finding what
-  monitoring silently misses
-- **Cloud cost** — measuring where the bill comes from and cutting it without losing safety margins
-- **Security** — default-deny authorization in Spring Security, column-level encryption of
-  personal data (AES-256-GCM via JPA converters), secrets out of config files
-
 ## Open Source Contributions
 
 ### Merged
@@ -40,6 +31,11 @@ infrastructure as code, observability, cost, and security.
 
 ## Career
 **Backend & Platform Engineer** · 2026-06 – present
+
+- Brought an existing, console-built AWS environment under Terraform by importing live resources, with guardrails against destroy and drift
+- Defined monitors and dashboards as code, moved alerting toward SLOs, and tracked down what monitoring silently missed
+- Analyzed where the cloud bill comes from and cut costs without losing safety margins
+- Hardened backend security: default-deny authorization in Spring Security, column-level encryption of personal data (AES-256-GCM via JPA converters), and secrets moved out of config files
 
 **TeamBind Inc.** · Backend Engineer/CTO
 2025-07-01 – 2026-06-22
