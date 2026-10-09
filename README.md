@@ -9,11 +9,21 @@ Interested in observability, resilience, and the internals of distributed system
 ![SQLD](https://img.shields.io/badge/SQL_Developer-SQLD-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
 ## Open Source Contributions
+
+### Merged
 | Project | Contribution | Pull Request |
 |--------|-------------|-------------|
-| Resilience4j | Added support for composed/meta-annotations in Spring 6 across all five resilience annotations (`@CircuitBreaker`, `@Bulkhead`, `@RateLimiter`, `@Retry`, `@TimeLimiter`), including new AOP pointcuts and merged-annotation resolution | [#2408](https://github.com/resilience4j/resilience4j/pull/2408) |
 | Spring Security | Applied the javadoc-warnings-error policy to the `spring-security-aspects` module, aligning it with the rest of the build | [#18855](https://github.com/spring-projects/spring-security/pull/18855) |
 | Micrometer | Documented Jakarta Mail instrumentation and registered it in the Observation instrumented-projects reference | [#7256](https://github.com/micrometer-metrics/micrometer/pull/7256) |
+
+### In Review
+| Project | Contribution | Pull Request |
+|--------|-------------|-------------|
+| Spinnaker (Orca) | Fixed a race where a duplicate `StartExecution` delivery could move a completed pipeline back to `RUNNING`, using a conditional status update (`SELECT ... FOR UPDATE`) | [#8174](https://github.com/spinnaker/spinnaker/pull/8174) |
+| Spring Batch | Truncated the execution context `SHORT_CONTEXT` by UTF-8 length so multibyte contexts no longer fail on Oracle (reproduced on Oracle 23) | [#5582](https://github.com/spring-projects/spring-batch/pull/5582) |
+| Spring Cloud Config | Expired the Git refresh rate when `/monitor` receives a webhook, so refreshed applications get the new commit | [#3342](https://github.com/spring-cloud/spring-cloud-config/pull/3342) |
+| Spring Boot | Made Docker Compose support fail fast on unsupported `*_FILE` credential variables instead of silently falling back to defaults | [#52120](https://github.com/spring-projects/spring-boot/pull/52120) |
+| Spring AI | Added unit tests for `ErrorLoggingObservationHandler` | [#7125](https://github.com/spring-projects/spring-ai/pull/7125) |
 
 ## GitHub Stats
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=DDINGJOO&theme=radical&hide_border=true)
