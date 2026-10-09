@@ -10,7 +10,7 @@ I come from backend engineering, so I work on both sides of that line.
 ![SQLD](https://img.shields.io/badge/SQL_Developer-SQLD-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
 ## Career
-**Platform Engineer & DevOps** · 2026-06 – present
+**Platform Engineer & DevOps** · 2026-06-23 – present
 
 - Brought an existing, console-built AWS environment under Terraform by importing live resources, with guardrails against destroy and drift
 - Defined monitors and dashboards as code, moved alerting toward SLOs, and tracked down what monitoring silently missed
