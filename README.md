@@ -1,12 +1,16 @@
-# Backend Engineer
+# Backend & Platform Engineer
 
-Backend engineer focused on building scalable, reliable systems in microservices architectures.
-Interested in observability, resilience, and the internals of distributed systems.
+I build and operate backend systems and the platform under them:
+infrastructure as code, observability, cost, and security.
 
-## Certifications
-![AWS Developer Associate](https://img.shields.io/badge/AWS_Certified_Developer-Associate-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Engineer Information Processing](https://img.shields.io/badge/Engineer_Information_Processing-정보처리기사-0066CC?style=for-the-badge&logoColor=white)
-![SQLD](https://img.shields.io/badge/SQL_Developer-SQLD-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+## What I've been working on
+- **Infrastructure as Code** — brought an existing, console-built AWS environment under Terraform
+  by importing live resources, with guardrails against destroy and drift
+- **Observability** — monitors and dashboards as code, SLO-based alerting, and finding what
+  monitoring silently misses
+- **Cloud cost** — measuring where the bill comes from and cutting it without losing safety margins
+- **Security** — default-deny authorization in Spring Security, column-level encryption of
+  personal data (AES-256-GCM via JPA converters), secrets out of config files
 
 ## Open Source Contributions
 
@@ -25,14 +29,18 @@ Interested in observability, resilience, and the internals of distributed system
 | Spring Boot | Made Docker Compose support fail fast on unsupported `*_FILE` credential variables instead of silently falling back to defaults | [#52120](https://github.com/spring-projects/spring-boot/pull/52120) |
 | Spring AI | Added unit tests for `ErrorLoggingObservationHandler` | [#7125](https://github.com/spring-projects/spring-ai/pull/7125) |
 
-## GitHub Stats
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=DDINGJOO&theme=radical&hide_border=true)
+## Certifications
+![AWS Developer Associate](https://img.shields.io/badge/AWS_Certified_Developer-Associate-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Engineer Information Processing](https://img.shields.io/badge/Engineer_Information_Processing-정보처리기사-0066CC?style=for-the-badge&logoColor=white)
+![SQLD](https://img.shields.io/badge/SQL_Developer-SQLD-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
 ## Contact
 [![Blog](https://img.shields.io/badge/Blog-FF5722?style=for-the-badge&logo=blogger&logoColor=white)](https://dding-shark.tistory.com/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DDINGJOO)
 
 ## Career
+**Backend & Platform Engineer** · 2026-06 – present
+
 **TeamBind Inc.** · Backend Engineer/CTO
 2025-07-01 – 2026-06-22
 
