@@ -4,6 +4,11 @@ I build and operate the platform that backend services run on:
 infrastructure as code, deployment, observability, cost, and security.
 I come from backend engineering, so I work on both sides of that line.
 
+## Certifications
+![AWS Developer Associate](https://img.shields.io/badge/AWS_Certified_Developer-Associate-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Engineer Information Processing](https://img.shields.io/badge/Engineer_Information_Processing-정보처리기사-0066CC?style=for-the-badge&logoColor=white)
+![SQLD](https://img.shields.io/badge/SQL_Developer-SQLD-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
 ## Open Source Contributions
 
 ### Merged
@@ -20,11 +25,6 @@ I come from backend engineering, so I work on both sides of that line.
 | Spring Cloud Config | Expired the Git refresh rate when `/monitor` receives a webhook, so refreshed applications get the new commit | [#3342](https://github.com/spring-cloud/spring-cloud-config/pull/3342) |
 | Spring Boot | Made Docker Compose support fail fast on unsupported `*_FILE` credential variables instead of silently falling back to defaults | [#52120](https://github.com/spring-projects/spring-boot/pull/52120) |
 | Spring AI | Added unit tests for `ErrorLoggingObservationHandler` | [#7125](https://github.com/spring-projects/spring-ai/pull/7125) |
-
-## Certifications
-![AWS Developer Associate](https://img.shields.io/badge/AWS_Certified_Developer-Associate-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Engineer Information Processing](https://img.shields.io/badge/Engineer_Information_Processing-정보처리기사-0066CC?style=for-the-badge&logoColor=white)
-![SQLD](https://img.shields.io/badge/SQL_Developer-SQLD-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
 ## Contact
 [![Blog](https://img.shields.io/badge/Blog-FF5722?style=for-the-badge&logo=blogger&logoColor=white)](https://dding-shark.tistory.com/)
