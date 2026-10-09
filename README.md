@@ -1,7 +1,8 @@
-# Backend & Platform Engineer
+# Platform Engineer & DevOps
 
-I build and operate backend systems and the platform under them:
-infrastructure as code, observability, cost, and security.
+I build and operate the platform that backend services run on:
+infrastructure as code, deployment, observability, cost, and security.
+I come from backend engineering, so I work on both sides of that line.
 
 ## Open Source Contributions
 
@@ -30,7 +31,7 @@ infrastructure as code, observability, cost, and security.
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DDINGJOO)
 
 ## Career
-**Backend & Platform Engineer** · 2026-06 – present
+**Platform Engineer & DevOps** · 2026-06 – present
 
 - Brought an existing, console-built AWS environment under Terraform by importing live resources, with guardrails against destroy and drift
 - Defined monitors and dashboards as code, moved alerting toward SLOs, and tracked down what monitoring silently missed
