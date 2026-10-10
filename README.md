@@ -37,6 +37,7 @@ I come from backend engineering, so I work on both sides of that line.
 | Project | Contribution | Pull Request |
 |--------|-------------|-------------|
 | Spinnaker (Orca) | Fixed a race where a duplicate `StartExecution` delivery could move a completed pipeline back to `RUNNING`, using a conditional status update (`SELECT ... FOR UPDATE`) | [#8174](https://github.com/spinnaker/spinnaker/pull/8174) |
+| Debezium | Fixed a regression in the generated MySQL DDL grammar where `ALTER DATABASE` without a database name failed to parse and stopped the connector | [#8220](https://github.com/debezium/debezium/pull/8220) |
 | Spring Batch | Truncated the execution context `SHORT_CONTEXT` by UTF-8 length so multibyte contexts no longer fail on Oracle (reproduced on Oracle 23) | [#5582](https://github.com/spring-projects/spring-batch/pull/5582) |
 | Spring Cloud Config | Expired the Git refresh rate when `/monitor` receives a webhook, so refreshed applications get the new commit | [#3342](https://github.com/spring-cloud/spring-cloud-config/pull/3342) |
 | Spring Boot | Made Docker Compose support fail fast on unsupported `*_FILE` credential variables instead of silently falling back to defaults | [#52120](https://github.com/spring-projects/spring-boot/pull/52120) |
