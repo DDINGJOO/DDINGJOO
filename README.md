@@ -32,6 +32,7 @@ I come from backend engineering, so I work on both sides of that line.
 |--------|-------------|-------------|
 | Spring Security | Applied the javadoc-warnings-error policy to the `spring-security-aspects` module, aligning it with the rest of the build | [#18855](https://github.com/spring-projects/spring-security/pull/18855) |
 | Micrometer | Documented Jakarta Mail instrumentation and registered it in the Observation instrumented-projects reference | [#7256](https://github.com/micrometer-metrics/micrometer/pull/7256) |
+| Lettuce (Redis Java client) | Fixed `DefaultEndpoint` validating `clientOptions` twice so a null `clientResources` bypassed the null check and surfaced later as an NPE away from the construction site | [#3952](https://github.com/redis/lettuce/pull/3952) |
 
 ### In Review
 | Project | Contribution | Pull Request |
@@ -41,7 +42,6 @@ I come from backend engineering, so I work on both sides of that line.
 | Debezium | Fixed the MariaDB and legacy MySQL grammars taking `DEFAULT` as a database name in `ALTER DATABASE DEFAULT CHARSET ...`, which silently skipped the charset change (follow-up requested by the maintainer) | [#8225](https://github.com/debezium/debezium/pull/8225) |
 | ANTLR grammars-v4 | Made the schema name optional in the MySQL `alterDatabase` rule, the upstream source of the Debezium grammar fixed in #8220 | [#5037](https://github.com/antlr/grammars-v4/pull/5037) |
 | ANTLR grammars-v4 | Fixed the MariaDB grammar taking `DEFAULT` as the database name in `ALTER DATABASE DEFAULT CHARSET ...`, upstream of one of the two grammars fixed in #8225 (the other, Positive-Technologies, is deprecated upstream and not accepting fixes) | [#5039](https://github.com/antlr/grammars-v4/pull/5039) |
-| Lettuce (Redis Java client) | Fixed `DefaultEndpoint` validating `clientOptions` twice so a null `clientResources` bypassed the null check and surfaced later as an NPE away from the construction site | [#3952](https://github.com/redis/lettuce/pull/3952) |
 | Spring Batch | Truncated the execution context `SHORT_CONTEXT` by UTF-8 length so multibyte contexts no longer fail on Oracle (reproduced on Oracle 23) | [#5582](https://github.com/spring-projects/spring-batch/pull/5582) |
 | Spring Cloud Config | Expired the Git refresh rate when `/monitor` receives a webhook, so refreshed applications get the new commit | [#3342](https://github.com/spring-cloud/spring-cloud-config/pull/3342) |
 | Spring Boot | Made Docker Compose support fail fast on unsupported `*_FILE` credential variables instead of silently falling back to defaults | [#52120](https://github.com/spring-projects/spring-boot/pull/52120) |
