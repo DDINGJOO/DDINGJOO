@@ -28,27 +28,23 @@ I come from backend engineering, so I work on both sides of that line.
 ## Open Source Contributions
 
 ### Merged
-| Project | Contribution | Pull Request |
-|--------|-------------|-------------|
-| Spring Security | Applied the javadoc-warnings-error policy to the `spring-security-aspects` module, aligning it with the rest of the build | [#18855](https://github.com/spring-projects/spring-security/pull/18855) |
-| Micrometer | Documented Jakarta Mail instrumentation and registered it in the Observation instrumented-projects reference | [#7256](https://github.com/micrometer-metrics/micrometer/pull/7256) |
-| Lettuce (Redis Java client) | Fixed `DefaultEndpoint` validating `clientOptions` twice so a null `clientResources` bypassed the null check and surfaced later as an NPE away from the construction site | [#3952](https://github.com/redis/lettuce/pull/3952) |
-| Spinnaker (Orca) | Fixed a race where a duplicate `StartExecution` delivery could move a completed pipeline back to `RUNNING`, using a conditional status update (`SELECT ... FOR UPDATE`) | [#8174](https://github.com/spinnaker/spinnaker/pull/8174) |
-| Lettuce (Redis Java client) | Fixed typos in the Javadoc of the stream `XACK` and `XLEN` commands across every API flavor, plus other comment typos | [#3954](https://github.com/redis/lettuce/pull/3954) |
-| Lettuce (Redis Java client) | Fixed assertion messages that named the wrong argument: a misspelled `ReauthenticateBehavior` in a public builder, and `CompressionCodec` reporting a `null` output stream as the input | [#3955](https://github.com/redis/lettuce/pull/3955) |
+| Project | Contributions |
+|--------|---------------|
+| **Spring Security** | [#18855](https://github.com/spring-projects/spring-security/pull/18855) Applied the javadoc-warnings-error policy to the `spring-security-aspects` module, aligning it with the rest of the build |
+| **Micrometer** | [#7256](https://github.com/micrometer-metrics/micrometer/pull/7256) Documented Jakarta Mail instrumentation and registered it in the Observation instrumented-projects reference |
+| **Lettuce**<br><sub>Redis Java client</sub> | • [#3952](https://github.com/redis/lettuce/pull/3952) Fixed `DefaultEndpoint` validating `clientOptions` twice so a null `clientResources` bypassed the null check and surfaced later as an NPE away from the construction site<br>• [#3954](https://github.com/redis/lettuce/pull/3954) Fixed typos in the Javadoc of the stream `XACK` and `XLEN` commands across every API flavor, plus other comment typos<br>• [#3955](https://github.com/redis/lettuce/pull/3955) Fixed assertion messages that named the wrong argument: a misspelled `ReauthenticateBehavior` in a public builder, and `CompressionCodec` reporting a `null` output stream as the input |
+| **Spinnaker**<br><sub>Orca</sub> | [#8174](https://github.com/spinnaker/spinnaker/pull/8174) Fixed a race where a duplicate `StartExecution` delivery could move a completed pipeline back to `RUNNING`, using a conditional status update (`SELECT ... FOR UPDATE`) |
 
 ### In Review
-| Project | Contribution | Pull Request |
-|--------|-------------|-------------|
-| Debezium | Fixed a regression in the generated MySQL DDL grammar where `ALTER DATABASE` without a database name failed to parse and stopped the connector | [#8220](https://github.com/debezium/debezium/pull/8220) |
-| Debezium | Fixed the MariaDB and legacy MySQL grammars taking `DEFAULT` as a database name in `ALTER DATABASE DEFAULT CHARSET ...`, which silently skipped the charset change (follow-up requested by the maintainer) | [#8225](https://github.com/debezium/debezium/pull/8225) |
-| ANTLR grammars-v4 | Made the schema name optional in the MySQL `alterDatabase` rule, the upstream source of the Debezium grammar fixed in #8220 | [#5037](https://github.com/antlr/grammars-v4/pull/5037) |
-| ANTLR grammars-v4 | Fixed the MariaDB grammar taking `DEFAULT` as the database name in `ALTER DATABASE DEFAULT CHARSET ...`, upstream of one of the two grammars fixed in #8225 (the other, Positive-Technologies, is deprecated upstream and not accepting fixes) | [#5039](https://github.com/antlr/grammars-v4/pull/5039) |
-| Keycloak | Fixed `AccessTokenContext` validating `grantType` twice instead of `rawTokenId`, so a null token id reached the encoded token id as the literal `null` rather than failing at construction | [#53990](https://github.com/keycloak/keycloak/pull/53990) |
-| Spring Batch | Truncated the execution context `SHORT_CONTEXT` by UTF-8 length so multibyte contexts no longer fail on Oracle (reproduced on Oracle 23) | [#5582](https://github.com/spring-projects/spring-batch/pull/5582) |
-| Spring Cloud Config | Expired the Git refresh rate when `/monitor` receives a webhook, so refreshed applications get the new commit | [#3342](https://github.com/spring-cloud/spring-cloud-config/pull/3342) |
-| Spring Boot | Made Docker Compose support fail fast on unsupported `*_FILE` credential variables instead of silently falling back to defaults | [#52120](https://github.com/spring-projects/spring-boot/pull/52120) |
-| Spring AI | Added unit tests for `ErrorLoggingObservationHandler` | [#7125](https://github.com/spring-projects/spring-ai/pull/7125) |
+| Project | Contributions |
+|--------|---------------|
+| **Debezium** | • [#8220](https://github.com/debezium/debezium/pull/8220) Fixed a regression in the generated MySQL DDL grammar where `ALTER DATABASE` without a database name failed to parse and stopped the connector<br>• [#8225](https://github.com/debezium/debezium/pull/8225) Fixed the MariaDB and legacy MySQL grammars taking `DEFAULT` as a database name in `ALTER DATABASE DEFAULT CHARSET ...`, which silently skipped the charset change (follow-up requested by the maintainer) |
+| **ANTLR grammars-v4** | • [#5037](https://github.com/antlr/grammars-v4/pull/5037) Made the schema name optional in the MySQL `alterDatabase` rule, the upstream source of the Debezium grammar fixed in #8220<br>• [#5039](https://github.com/antlr/grammars-v4/pull/5039) Fixed the MariaDB grammar taking `DEFAULT` as the database name in `ALTER DATABASE DEFAULT CHARSET ...`, upstream of one of the two grammars fixed in #8225 (the other, Positive-Technologies, is deprecated upstream and not accepting fixes) |
+| **Keycloak** | [#53990](https://github.com/keycloak/keycloak/pull/53990) Fixed `AccessTokenContext` validating `grantType` twice instead of `rawTokenId`, so a null token id reached the encoded token id as the literal `null` rather than failing at construction |
+| **Spring Batch** | [#5582](https://github.com/spring-projects/spring-batch/pull/5582) Truncated the execution context `SHORT_CONTEXT` by UTF-8 length so multibyte contexts no longer fail on Oracle (reproduced on Oracle 23) |
+| **Spring Cloud Config** | [#3342](https://github.com/spring-cloud/spring-cloud-config/pull/3342) Expired the Git refresh rate when `/monitor` receives a webhook, so refreshed applications get the new commit |
+| **Spring Boot** | [#52120](https://github.com/spring-projects/spring-boot/pull/52120) Made Docker Compose support fail fast on unsupported `*_FILE` credential variables instead of silently falling back to defaults |
+| **Spring AI** | [#7125](https://github.com/spring-projects/spring-ai/pull/7125) Added unit tests for `ErrorLoggingObservationHandler` |
 
 ## Contact
 [![Blog](https://img.shields.io/badge/Blog-FF5722?style=for-the-badge&logo=blogger&logoColor=white)](https://dding-shark.tistory.com/)
