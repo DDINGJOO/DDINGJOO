@@ -33,11 +33,11 @@ I come from backend engineering, so I work on both sides of that line.
 | Spring Security | Applied the javadoc-warnings-error policy to the `spring-security-aspects` module, aligning it with the rest of the build | [#18855](https://github.com/spring-projects/spring-security/pull/18855) |
 | Micrometer | Documented Jakarta Mail instrumentation and registered it in the Observation instrumented-projects reference | [#7256](https://github.com/micrometer-metrics/micrometer/pull/7256) |
 | Lettuce (Redis Java client) | Fixed `DefaultEndpoint` validating `clientOptions` twice so a null `clientResources` bypassed the null check and surfaced later as an NPE away from the construction site | [#3952](https://github.com/redis/lettuce/pull/3952) |
+| Spinnaker (Orca) | Fixed a race where a duplicate `StartExecution` delivery could move a completed pipeline back to `RUNNING`, using a conditional status update (`SELECT ... FOR UPDATE`) | [#8174](https://github.com/spinnaker/spinnaker/pull/8174) |
 
 ### In Review
 | Project | Contribution | Pull Request |
 |--------|-------------|-------------|
-| Spinnaker (Orca) | Fixed a race where a duplicate `StartExecution` delivery could move a completed pipeline back to `RUNNING`, using a conditional status update (`SELECT ... FOR UPDATE`) | [#8174](https://github.com/spinnaker/spinnaker/pull/8174) |
 | Debezium | Fixed a regression in the generated MySQL DDL grammar where `ALTER DATABASE` without a database name failed to parse and stopped the connector | [#8220](https://github.com/debezium/debezium/pull/8220) |
 | Debezium | Fixed the MariaDB and legacy MySQL grammars taking `DEFAULT` as a database name in `ALTER DATABASE DEFAULT CHARSET ...`, which silently skipped the charset change (follow-up requested by the maintainer) | [#8225](https://github.com/debezium/debezium/pull/8225) |
 | ANTLR grammars-v4 | Made the schema name optional in the MySQL `alterDatabase` rule, the upstream source of the Debezium grammar fixed in #8220 | [#5037](https://github.com/antlr/grammars-v4/pull/5037) |
