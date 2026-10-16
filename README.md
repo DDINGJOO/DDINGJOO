@@ -47,6 +47,8 @@ I come from backend engineering, so I work on both sides of that line.
 | Spring Cloud Config | Expired the Git refresh rate when `/monitor` receives a webhook, so refreshed applications get the new commit | [#3342](https://github.com/spring-cloud/spring-cloud-config/pull/3342) |
 | Spring Boot | Made Docker Compose support fail fast on unsupported `*_FILE` credential variables instead of silently falling back to defaults | [#52120](https://github.com/spring-projects/spring-boot/pull/52120) |
 | Spring AI | Added unit tests for `ErrorLoggingObservationHandler` | [#7125](https://github.com/spring-projects/spring-ai/pull/7125) |
+| Lettuce (Redis Java client) | Fixed typos in the Javadoc of the stream `XACK` and `XLEN` commands across every API flavor, plus other comment typos | [#3954](https://github.com/redis/lettuce/pull/3954) |
+| Lettuce (Redis Java client) | Fixed assertion messages that named the wrong argument: a misspelled `ReauthenticateBehavior` in a public builder, and `CompressionCodec` reporting a `null` output stream as the input | [#3955](https://github.com/redis/lettuce/pull/3955) |
 
 ## Contact
 [![Blog](https://img.shields.io/badge/Blog-FF5722?style=for-the-badge&logo=blogger&logoColor=white)](https://dding-shark.tistory.com/)
