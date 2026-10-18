@@ -27,7 +27,7 @@ I come from backend engineering, so I work on both sides of that line.
 <table>
   <tr><td><b>Primary</b></td><td><code>Java</code> <code>Spring</code> <code>AWS</code> <code>Terraform</code> <code>Kubernetes</code></td></tr>
   <tr><td><b>Comfortable</b></td><td><code>Kotlin</code> <code>Docker</code> <code>GitHub Actions</code> <code>MySQL</code> <code>PostgreSQL</code> <code>Redis</code> <code>Kafka</code></td></tr>
-  <tr><td><b>Familiar</b></td><td><code>TypeScript</code> <code>Next.js</code> <code>Python</code> <code>Grafana</code> <code>Prometheus</code></td></tr>
+  <tr><td><b>Familiar</b></td><td><code>Prometheus</code></td></tr>
 </table>
 
 ## Open Source Contributions
