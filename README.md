@@ -24,7 +24,9 @@ I come from backend engineering, so I work on both sides of that line.
 - Developed web and app backends end to end
 
 ## Stack
-`AWS` `Kubernetes` `Terraform` `Datadog` `GitHub Actions` `Java` `Spring` `Kotlin`
+**Primary** · `Java` `Spring` `AWS` `Terraform` `Kubernetes` `Datadog`<br>
+**Comfortable** · `Kotlin` `Docker` `GitHub Actions` `MySQL` `PostgreSQL` `Redis` `Kafka`<br>
+**Familiar** · `TypeScript` `Next.js` `Python` `Grafana` `Prometheus`
 
 ## Open Source Contributions
 
