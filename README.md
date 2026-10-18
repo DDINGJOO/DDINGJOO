@@ -10,20 +10,21 @@ I come from backend engineering, so I work on both sides of that line.
 ![SQLD](https://img.shields.io/badge/SQL_Developer-SQLD-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
 ## Career
-**Platform Engineer & DevOps** · 2026-06-23 – present
+**Platform Engineer & DevOps** · 2026-06 – present
+- **Infrastructure platform** — brought a console-built AWS environment under Terraform with OIDC-based workflows
+- **Observability** — monitoring managed as code, alerting moved to SLOs
+- **Delivery & cost** — improved the internal deployment pipeline (blue-green); traced where the cloud bill comes from and cut it
+- **Security** — default-deny authorization, column-level encryption of personal data, ISO 27001 / ISMS-P preparation
 
-- Brought an existing, console-built AWS environment under Terraform by importing live resources, with guardrails against destroy and drift
-- Defined monitors and dashboards as code, moved alerting toward SLOs, and tracked down what monitoring silently missed
-- Analyzed where the cloud bill comes from and cut costs without losing safety margins
-- Hardened backend security: default-deny authorization in Spring Security, column-level encryption of personal data (AES-256-GCM via JPA converters), and secrets moved out of config files
-
-**TeamBind Inc.** · Backend Engineer/CTO
-2025-07-01 – 2026-06-22
-
-- Designed and built microservices-based systems as the sole backend engineer, owning the full stack from infrastructure to application
-- Operated a self-managed (on-premises) Kubernetes cluster, including incident response and troubleshooting
+**TeamBind** · Backend Engineer / CTO · 2025-07 – 2026-06<br>
+<sub>A space-booking and community platform for musicians</sub>
+- Designed and built a microservices architecture as the sole backend engineer
+- Built and operated a self-managed (on-premises) Kubernetes cluster, including incident response
 - Designed database schemas and data models for core services
-- Developed both web and app-facing backend services end to end
+- Developed web and app backends end to end
+
+## Stack
+`AWS` `Kubernetes` `Terraform` `Datadog` `GitHub Actions` `Java` `Spring` `Kotlin`
 
 ## Open Source Contributions
 
@@ -47,6 +48,9 @@ I come from backend engineering, so I work on both sides of that line.
 | **Spring Cloud Config** | [#3342](https://github.com/spring-cloud/spring-cloud-config/pull/3342) Expired the Git refresh rate when `/monitor` receives a webhook, so refreshed applications get the new commit |
 | **Spring Boot** | [#52120](https://github.com/spring-projects/spring-boot/pull/52120) Made Docker Compose support fail fast on unsupported `*_FILE` credential variables instead of silently falling back to defaults |
 | **Spring AI** | [#7125](https://github.com/spring-projects/spring-ai/pull/7125) Added unit tests for `ErrorLoggingObservationHandler` |
+
+## Writing
+I write up what I learn on [my blog](https://dding-shark.tistory.com/): SRE and observability, IaC work logs, incident response and more (180+ posts).
 
 ## Contact
 [![Blog](https://img.shields.io/badge/Blog-FF5722?style=for-the-badge&logo=blogger&logoColor=white)](https://dding-shark.tistory.com/)
