@@ -13,7 +13,7 @@ I come from backend engineering, so I work on both sides of that line.
 **Platform Engineer & DevOps** · 2026-06 – present
 - **Infrastructure platform** — brought a console-built AWS environment under Terraform with OIDC-based workflows
 - **Observability** — monitoring managed as code, alerting moved to SLOs
-- **Delivery & cost** — improved the internal deployment pipeline (blue-green); traced where the cloud bill comes from and cut it
+- **Deploy & cost** — improved the internal deployment pipeline (blue-green); traced where the cloud bill comes from and cut it
 - **Security** — default-deny authorization, column-level encryption of personal data, ISO 27001 / ISMS-P preparation
 
 **TeamBind** · Backend Engineer / CTO · 2025-07 – 2026-06<br>
