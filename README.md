@@ -34,6 +34,7 @@ I come from backend engineering, so I work on both sides of that line.
 ### Merged
 | Project | Contributions |
 |--------|---------------|
+| **Debezium** | [#8220](https://github.com/debezium/debezium/pull/8220) Fixed a regression in the generated MySQL DDL grammar where `ALTER DATABASE` without a database name failed to parse and stopped the connector |
 | **Spring Security** | [#18855](https://github.com/spring-projects/spring-security/pull/18855) Applied the javadoc-warnings-error policy to the `spring-security-aspects` module, aligning it with the rest of the build |
 | **Micrometer** | [#7256](https://github.com/micrometer-metrics/micrometer/pull/7256) Documented Jakarta Mail instrumentation and registered it in the Observation instrumented-projects reference |
 | **Lettuce**<br><sub>Redis Java client</sub> | • [#3952](https://github.com/redis/lettuce/pull/3952) Fixed `DefaultEndpoint` validating `clientOptions` twice so a null `clientResources` bypassed the null check and surfaced later as an NPE away from the construction site<br>• [#3954](https://github.com/redis/lettuce/pull/3954) Fixed typos in the Javadoc of the stream `XACK` and `XLEN` commands across every API flavor, plus other comment typos<br>• [#3955](https://github.com/redis/lettuce/pull/3955) Fixed assertion messages that named the wrong argument: a misspelled `ReauthenticateBehavior` in a public builder, and `CompressionCodec` reporting a `null` output stream as the input |
@@ -45,7 +46,7 @@ I come from backend engineering, so I work on both sides of that line.
 ### In Review
 | Project | Contributions |
 |--------|---------------|
-| **Debezium** | • [#8220](https://github.com/debezium/debezium/pull/8220) Fixed a regression in the generated MySQL DDL grammar where `ALTER DATABASE` without a database name failed to parse and stopped the connector<br>• [#8225](https://github.com/debezium/debezium/pull/8225) Fixed the MariaDB and legacy MySQL grammars taking `DEFAULT` as a database name in `ALTER DATABASE DEFAULT CHARSET ...`, which silently skipped the charset change (follow-up requested by the maintainer) |
+| **Debezium** | [#8225](https://github.com/debezium/debezium/pull/8225) Fixed the MariaDB and legacy MySQL grammars taking `DEFAULT` as a database name in `ALTER DATABASE DEFAULT CHARSET ...`, which silently skipped the charset change (follow-up requested by the maintainer) |
 | **Spinnaker**<br><sub>Orca</sub> | • [#8208](https://github.com/spinnaker/spinnaker/pull/8208) Made `StartExecution`'s rollback after a failed `StartStage` push conditional, so a cancel made in that window is no longer overwritten and the redelivered message doesn't start the canceled pipeline (reproduced against MySQL)<br>• [#8209](https://github.com/spinnaker/spinnaker/pull/8209) Added a test that depends on the row lock in `updateStatusIfExpected`; it fails if `SELECT ... FOR UPDATE` is removed |
 | **Spring Batch** | [#5582](https://github.com/spring-projects/spring-batch/pull/5582) Truncated the execution context `SHORT_CONTEXT` by UTF-8 length so multibyte contexts no longer fail on Oracle (reproduced on Oracle 23) |
 | **Spring Cloud Config** | [#3342](https://github.com/spring-cloud/spring-cloud-config/pull/3342) Expired the Git refresh rate when `/monitor` receives a webhook, so refreshed applications get the new commit |
