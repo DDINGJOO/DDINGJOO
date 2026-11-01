@@ -52,10 +52,6 @@ I come from backend engineering, so I work on both sides of that line.
 | Project | Contributions |
 |--------|---------------|
 | **Spinnaker**<br><sub>Orca</sub> | • [#8209](https://github.com/spinnaker/spinnaker/pull/8209) Added a test that depends on the row lock in `updateStatusIfExpected`; it fails if `SELECT ... FOR UPDATE` is removed |
-| **Reactor Core** | [#4452](https://github.com/reactor/reactor-core/pull/4452) Fixed a race where demand could be forwarded to a completed empty source in `Flux.concat` and `Flux.concatDelayError`, leaving the sequence stalled |
-| **Spring Batch** | [#5582](https://github.com/spring-projects/spring-batch/pull/5582) Truncated the execution context `SHORT_CONTEXT` by UTF-8 length so multibyte contexts no longer fail on Oracle (reproduced on Oracle 23) |
-| **Spring Boot** | [#52120](https://github.com/spring-projects/spring-boot/pull/52120) Made Docker Compose support fail fast on unsupported `*_FILE` credential variables instead of silently falling back to defaults |
-| **Spring AI** | [#7125](https://github.com/spring-projects/spring-ai/pull/7125) Added unit tests for `ErrorLoggingObservationHandler` |
 
 ## Writing
 I write up what I learn on [my blog](https://dding-shark.tistory.com/): SRE and observability, IaC work logs, incident response and more (180+ posts).
