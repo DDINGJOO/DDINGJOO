@@ -48,6 +48,11 @@ I come from backend engineering, so I work on both sides of that line.
 | **Spring Security** | [#18855](https://github.com/spring-projects/spring-security/pull/18855) Applied the javadoc-warnings-error policy to the `spring-security-aspects` module, aligning it with the rest of the build |
 | **Micrometer** | [#7256](https://github.com/micrometer-metrics/micrometer/pull/7256) Documented Jakarta Mail instrumentation and registered it in the Observation instrumented-projects reference |
 
+### In Review
+| Project | Contributions |
+|--------|---------------|
+| **Flux**<br><sub>kustomize-controller</sub> | [#1807](https://github.com/fluxcd/kustomize-controller/pull/1807) Add warning events when a Kustomization overwrites resources owned by another Kustomization, making silent ownership conflicts visible |
+
 ## Writing
 I write up what I learn on [my blog](https://dding-shark.tistory.com/): SRE and observability, IaC work logs, incident response and more (180+ posts).
 
