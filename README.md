@@ -51,7 +51,7 @@ I come from backend engineering, so I work on both sides of that line.
 ### In Review
 | Project | Contributions |
 |--------|---------------|
-| **Flux**<br><sub>kustomize-controller</sub> | [#1807](https://github.com/fluxcd/kustomize-controller/pull/1807) Add warning events when a Kustomization overwrites resources owned by another Kustomization, making silent ownership conflicts visible |
+| **Flux**<br><sub>kustomize-controller · pkg/ssa</sub> | • [#1807](https://github.com/fluxcd/kustomize-controller/pull/1807) Add warning events when a Kustomization overwrites resources owned by another Kustomization, making silent ownership conflicts visible<br>• [#1377](https://github.com/fluxcd/pkg/pull/1377) Report ownership conflicts from SSA’s existing object lookup so controllers can warn without an extra API request |
 
 ## Writing
 I write up what I learn on [my blog](https://dding-shark.tistory.com/): SRE and observability, IaC work logs, incident response and more (180+ posts).
