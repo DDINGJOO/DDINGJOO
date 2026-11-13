@@ -52,6 +52,7 @@ I come from backend engineering, so I work on both sides of that line.
 ### In Review
 | Project | Contributions |
 |--------|---------------|
+| **KEDA HTTP Add-on** | [#1838](https://github.com/kedacore/http-add-on/pull/1838) Reject malformed InterceptorRoute hosts at CRD admission while preserving catch-all routing |
 | **Flux**<br><sub>kustomize-controller</sub> | [#1807](https://github.com/fluxcd/kustomize-controller/pull/1807) Add warning events when a Kustomization overwrites resources owned by another Kustomization, making silent ownership conflicts visible |
 
 ## Writing
