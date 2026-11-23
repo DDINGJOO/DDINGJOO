@@ -53,6 +53,7 @@ I come from backend engineering, so I work on both sides of that line.
 ### In Review
 | Project | Contributions |
 |--------|---------------|
+| **Logstash Logback Encoder** | [#1143](https://github.com/logfellow/logstash-logback-encoder/pull/1143) Reject null nested field names before starting child providers, preserving empty and whitespace-only names |
 | **OAuth2 Proxy** | [#3620](https://github.com/oauth2-proxy/oauth2-proxy/pull/3620) Resolve nested group claims in bearer sessions while preserving literal-key precedence and existing group validation |
 | **KEDA HTTP Add-on** | [#1838](https://github.com/kedacore/http-add-on/pull/1838) Reject malformed InterceptorRoute hosts at CRD admission while preserving catch-all routing |
 
